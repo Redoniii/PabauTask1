@@ -1,12 +1,46 @@
-# React + Vite
+# Guitar Shop React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application for a guitar shop, built with Vite. It uses GraphQL to fetch data from a server.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get a local copy up and running, follow these simple steps.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You need to have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Redoniii/PabauTask.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd guitar-shop-react
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+### Running the Application
+
+To run the app in development mode, run the following command:
+
+```sh
+npm run dev
+```
+
+This will start the development server. Open [http://localhost:5173](http://localhost:5173) (the port might be different, check your terminal) to view it in the browser.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Runs the app in the development mode.
+- `npm run build`: Builds the app for production to the `dist` folder.
+- `npm run lint`: Lints the code using ESLint.
+- `npm run preview`: Serves the production build locally for preview.
+
