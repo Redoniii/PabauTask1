@@ -11,16 +11,21 @@ To get a local copy up and running, follow these simple steps.
 You need to have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
 ### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Redoniii/PabauTask.git
+1. Create a folder on your PC
    ```
-2. Navigate to the project directory
+2. Clone the repo
    ```sh
-   cd guitar-shop-react
+   git clone https://github.com/Redoniii/PabauTask1.git
    ```
-3. Install NPM packages
+3. Navigate to the project directory
+   ```sh
+   cd PabauTask1
+   ```
+4. Change to "Submission" branch
+   ```sh
+   git checkout Submission
+   ```   
+5. Install NPM packages
    ```sh
    npm install
    ```
@@ -34,6 +39,8 @@ npm run dev
 ```
 
 This will start the development server. Open [http://localhost:5173](http://localhost:5173) (the port might be different, check your terminal) to view it in the browser.
+
+I also deployed the project to see what it looks like: http://musicguitar.netlify.app
 
 ## Available Scripts
 
